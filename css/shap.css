@@ -90,17 +90,17 @@
 /* Shape Six Hover Transofrmation / Animation = Rotate into vertical line*/
 .shape-six:hover > :nth-child(1) {
   animation-name: rotate-vertical;
-  animation-duration: 8s;
+  animation-duration: 3s;
   animation-iteration-count: 3;
 }
 .shape-six:hover > :nth-child(2) {
   animation-name: rotate-vertical;
-  animation-duration: 8s;
+  animation-duration: 3s;
   animation-iteration-count: 3;
 }
 .shape-six:hover > :nth-child(3) {
   animation-name: rotate-vertical;
-  animation-duration: 8s;
+  animation-duration: 3s;
   animation-iteration-count: 3;
 }
 @keyframes rotate-vertical {
@@ -207,7 +207,91 @@
   }
 }
 /* Shape Eight Hover Transformation */
-
+.shape-eight:hover > :nth-child(1) {
+  animation-name: merge-down-left;
+  animation-duration: 1s;
+  animation-iteration-count: 3;
+}
+.shape-eight:hover > :nth-child(2) {
+  animation-name: merge-horizontal;
+  animation-duration: 1s;
+  animation-iteration-count: 3;
+}
+.shape-eight:hover > :nth-child(3) {
+  animation-name: merge-up-right;
+  animation-duration: 1s;
+  animation-iteration-count: 3;
+}
+@keyframes merge-down-left {
+  0% {
+    transform: translate(0px, 2.5px);
+  }
+  10% {
+    transform: translate(0px, 7.5px);
+  }
+  20% {
+    transform: translate(0px, 12.5px);
+  }
+  30% {
+    transform: translate(20px, 12.5px);
+  }
+  40% {
+    transform: translate(30px, 12.5px);
+  }
+  50% {
+    transform: translate(40px, 12.5px);
+  }
+  60% {
+    transform: translate(15px, 17.5px);
+  }
+  70% {
+    transform: translate(10px, 20px);
+  }
+  80% {
+    transform: translate(5px, 22.5px);
+  }
+  90% {
+    transform: translate(0px, 25px);
+  }
+  100% {
+    transform: translate(-2.5px, 27.5px);
+  }
+}
+@keyframes merge-up-right {
+  0% {
+    transform: translate(0px, 2.5px);
+  }
+  10% {
+    transform: translate(0px, -7.5px);
+  }
+  20% {
+    transform: translate(0px, -12.5px);
+  }
+  30% {
+    transform: translate(-20px, -12.5px);
+  }
+  40% {
+    transform: translate(-30px, -12.5px);
+  }
+  50% {
+    transform: translate(-40px, -12.5px);
+  }
+  60% {
+    transform: translate(-15px, -17.5px);
+  }
+  70% {
+    transform: translate(-10px, -20px);
+  }
+  80% {
+    transform: translate(-5px, -22.5px);
+  }
+  90% {
+    transform: translate(0px, -25px);
+  }
+  100% {
+    transform: translate(2.5px, -27.5px);
+  }
+}
 /* Shape Nine Hover Transformation */
 
 /* Shape Ten Hover Transformation */
