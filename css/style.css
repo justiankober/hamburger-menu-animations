@@ -19,9 +19,15 @@ body {
   position: relative;
   top: 25vh;
 }
-.Lower-Line {
+.Middle-Line {
   display: flex;
   justify-content: space-evenly;
   position: relative;
   top: 50vh;
+}
+.Lower-Line {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: 75vh;
 }
