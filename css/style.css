@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;400&display=swap");
+@import url("./shap.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  /* var */
+  --company-styled-font: "Heebo", sans-serif;
+}
+body {
+  font-family: var(--company-styled-font);
+}
+.Upper-Line {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: 25vh;
+}
+.Lower-Line {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: 50vh;
+}
